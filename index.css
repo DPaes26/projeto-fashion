@@ -63,29 +63,6 @@
     cursor: pointer;
 }
 
-footer{
-    width: 100%;
-    min-height: 440px;
-    background-color: black;
-    color: whitesmoke;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 60px;
-    pad: 100px 8%;
-}
-
-.about h2{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.about p{
-    color: #999;
-    font-size:15px;
-    line-height: 1.8;
-    margin-bottom: 25px;
-}
 .social {
     display: flex;
     gap: 12px;
@@ -101,25 +78,4 @@ footer{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.column h3{
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.column a {
-    color: #999;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-.column a:hover {
-    color: whitesmoke;
 }
